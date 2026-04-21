@@ -1,0 +1,21 @@
+---
+description: React component conventions — auto-applied to TSX files
+alwaysApply: false
+globs: ["**/*.tsx", "**/*.jsx"]
+---
+
+## Components
+- One component per file
+- Named exports over default exports
+- Props interface defined above the component
+- No inline styles — use CSS modules or Tailwind
+
+## Hooks
+- Custom hooks in `hooks/` folder, prefixed with `use`
+- No business logic in components — extract to hooks or utils
+- `useMemo`/`useCallback` only when profiling shows a need
+
+## State
+- Local state with `useState` unless shared
+- Shared state in context or state management library
+- Avoid prop drilling beyond 2 levels

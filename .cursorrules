@@ -1,0 +1,30 @@
+# Project Rules
+
+<!-- This file applies to every request. Keep it focused and concise. -->
+
+## Project
+<!-- 2-3 sentences about what this project is -->
+
+## Stack
+<!-- List main technologies so Cursor has context -->
+
+## Rules
+- Follow existing code style — don't introduce new patterns without discussion
+- Write tests for all new functionality
+- Prefer explicit over clever
+- Never modify generated files
+
+## Commands
+```bash
+# Install
+npm install
+
+# Dev
+npm run dev
+
+# Test
+npm test
+
+# Build
+npm run build
+```
