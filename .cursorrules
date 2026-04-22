@@ -3,16 +3,14 @@
 <!-- This file applies to every request. Keep it focused and concise. -->
 
 ## Project
-<!-- 2-3 sentences about what this project is -->
+<!-- 2-3 sentences: what it is, who it's for, what problem it solves -->
 
 ## Stack
 <!-- List main technologies so Cursor has context -->
-
-## Rules
-- Follow existing code style — don't introduce new patterns without discussion
-- Write tests for all new functionality
-- Prefer explicit over clever
-- Never modify generated files
+- Language:
+- Framework:
+- Database:
+- Hosting:
 
 ## Commands
 ```bash
@@ -27,4 +25,21 @@ npm test
 
 # Build
 npm run build
+
+# Lint
+npm run lint
 ```
+
+## Rules
+- Follow existing code style — don't introduce new patterns without discussion
+- Write tests for all new functionality
+- Prefer explicit over clever
+- Never modify generated files
+
+## Important context
+<!-- Anything Cursor needs to know that isn't obvious from the code -->
+-
+
+## What NOT to do
+<!-- Common mistakes to avoid in this specific codebase -->
+-

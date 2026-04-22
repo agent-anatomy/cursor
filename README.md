@@ -30,7 +30,8 @@ Then edit `.cursorrules` and `.cursor/rules/` to match your project.
 │   ├── code-style.mdc             ← always-on: coding conventions
 │   ├── testing.mdc                ← always-on: test rules
 │   ├── api-conventions.mdc        ← always-on: API patterns
-│   └── react-components.mdc       ← auto: applies to *.tsx files only
+│   ├── react-components.mdc       ← auto: applies to *.tsx files only
+│   └── git.mdc                    ← agent-requested: commit conventions
 └── mcp.json.example               → copy → mcp.json (gitignored if has secrets)
 ```
 

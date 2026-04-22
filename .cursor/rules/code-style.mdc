@@ -19,3 +19,8 @@ alwaysApply: true
 - Type hints on all function signatures
 - f-strings over `.format()` or `%`
 - `pathlib` over `os.path`
+
+## CSS
+- BEM naming for class names
+- Variables in `:root` for all colors and spacing tokens
+- Mobile-first media queries
